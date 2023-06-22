@@ -1,0 +1,30 @@
+$primary: #009e4f; //PSL Dark Green
+
+//#016a87; //FESF Dark Teal
+//#d12b2b; // FESF Donate Button Red
+//#e86d3a; // DRS Donate Button Orange
+//#005baa; // DRS Dark Blue
+
+.field-label {
+    width: 30%;
+    min-width: 150px; /* or whatever value you prefer */
+}
+
+label.radio {
+    width: 40%;
+    min-width: 120px;
+    margin: 0 1rem 1rem 1rem;
+    vertical-align: middle;
+}
+
+.field-body > .control > label.radio:first-child {
+    margin: 0 1rem 1rem 0.5rem;
+}
+    
+// .correct-answer {
+//     background-color: green;
+// }
+
+// .wrong-answer {
+//     background-color: red;
+// }

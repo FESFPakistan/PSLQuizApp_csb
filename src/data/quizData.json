@@ -1,0 +1,369 @@
+{
+    "Quiz":{
+        "QuizID": 54867,
+        "Description": "Hey, This quiz is hard so as your life",
+        "Author": "FESF Pricipal",
+        "//comment": "use - instead of / in Date",
+        "CreateDate": "16-May-2023",
+        "StartDate": "18-May-2023",
+        "EndDate": "20-May-2023",
+        "Class": 5,
+        "Section": "A",
+        "Department": "Primary"
+    },
+    "sections": [
+        {
+            "id": 1,
+            "order": 1,
+            "title": "Personal Information",
+            "description": "This is the first section",
+            "headerImage": "https://example.com/image.png",
+            "shuffleQuestions": false,
+            "shuffleOptions": false,
+            "type": "page",
+            "questions": [
+                {
+                    "id": 1,
+                    "text": "Email",
+                    "type": "email",
+                    "altText": "Enter email",
+                    "userValue": null
+                },
+                {
+                    "id": 2,
+                    "text": "Name",
+                    "type": "text",
+                    "altText": "Enter Name",
+                    "userValue": null
+                },
+                {
+                    "id": 3,
+                    "text": "Campus",
+                    "type": "dropdown",
+                    "altText": "Select your Campus",
+                    "userValue": null,
+                    "answers": [
+                        {
+                            "id": 1,
+                            "text": "Karachi"
+                        },
+                        {
+                            "id": 2,
+                            "text": "Rashidabad"
+                        },
+                        {
+                            "id": 3,
+                            "text": "Hyderabad"
+                        },
+                        {
+                            "id": 4,
+                            "text": "Nawabshah"
+                        },
+                        {
+                            "id": 5,
+                            "text": "Sukkur"
+                        },
+                        {
+                            "id": 6,
+                            "text": "Lahore"
+                        },
+                        {
+                            "id": 7,
+                            "text": "Jhelum"
+                        },
+                        {
+                            "id": 8,
+                            "text": "Sajawal"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "text": "Designation",
+                    "type": "dropdown",
+                    "altText": "Select your Designation",
+                    "userValue": null,
+                    "answers": [
+                        {
+                            "id": 1,
+                            "text": "Teacher"
+                        },
+                        {
+                            "id": 2,
+                            "text": "PSL Monitor"
+                        },
+                        {
+                            "id": 3,
+                            "text": "Academic Coordinator"
+                        },
+                        {
+                            "id": 4,
+                            "text": "Other"
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "text": "Department",
+                    "type": "dropdown",
+                    "altText": "Select your Department",
+                    "userValue": null,
+                    "answers": [
+                        {
+                            "id": 1,
+                            "text": "Pre-Primary"
+                        },
+                        {
+                            "id": 2,
+                            "text": "Primary"
+                        },
+                        {
+                            "id": 3,
+                            "text": "Secondary"
+                        },
+                        {
+                            "id": 4,
+                            "text": "Other"
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "text": "Nature of Exam",
+                    "type": "radioButton",
+                    "altText": "Select your Nature of Exam",
+                    "userValue": null,
+                    "answers": [
+                        {
+                            "id": 1,
+                            "text": "Entry Test"
+                        },
+                        {
+                            "id": 2,
+                            "text": "Pre-Test (before training)"
+                        },
+                        {
+                            "id": 3,
+                            "text": "Post-Test (after training)"
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "text": "Deaf / Hearing",
+                    "type": "radioButton",
+                    "altText": "Select Deaf / Hearing",
+                    "userValue": 1,
+                    "answers": [
+                        {
+                            "id": 1,
+                            "text": "Deaf"
+                        },
+                        {
+                            "id": 2,
+                            "text": "Hearing"
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "text": "Employee Code",
+                    "type": "text",
+                    "altText": "Enter Employee Code",
+                    "userValue": null
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "order": 2,
+            "title": "QUIZ - CARD VIEW",
+            "description": "This is description of this section and this section has questions of different types",
+            "headerImage": "https://example.com/image.png",
+            "shuffleQuestions": true,
+            "shuffleOptions": true,
+            "type": "card",
+            "questions": [
+                {
+                    "id": 1,
+                    "text": "Question 1",
+                    "mediaURL": "https://fesfpsldata.s3.ap-southeast-1.amazonaws.com/psl-activity/image/001-baby.jpg",
+                    "mediaType": "image",
+                    "type": "multiple-choice",
+                    "altText": "Select the option with the Correct Word",
+                    "noShuffle": false,
+                    "correctAnswerId": 1,
+                    "userValue": null,
+                    "answers": [
+                        {
+                            "id": 1,
+                            "text": "Baby",
+                            "mediaURL": null,
+                            "mediaType": null,
+                            "type": "text",
+                            "altText": ""
+                        },
+                        {
+                            "id": 2,
+                            "text": "Boy",
+                            "mediaURL": null,
+                            "mediaType": null,
+                            "type": "text",
+                            "altText": ""
+                        },
+                        {
+                            "id": 3,
+                            "text": "Kid",
+                            "mediaURL": null,
+                            "mediaType": null,
+                            "type": "text",
+                            "altText": ""
+                        },
+                        {
+                            "id": 4,
+                            "text": "Small",
+                            "mediaURL": null,
+                            "mediaType": null,
+                            "type": "text",
+                            "altText": ""
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "text": "Question 2",
+                    "mediaURL": "https://fesfpsldata.s3.ap-southeast-1.amazonaws.com/psl-activity/sign-gif/018-teacher.gif",
+                    "mediaType": "video",
+                    "type": "multiple-choice",
+                    "altText": "Select the Correct Image",
+                    "noShuffle": false,
+                    "correctAnswerId": 4,
+                    "userValue": null,
+                    "answers": [
+                        {
+                            "id": 1,
+                            "text": null,
+                            "mediaURL": "https://fesfpsldata.s3.ap-southeast-1.amazonaws.com/psl-activity/image/015-soldier.jpg",
+                            "mediaType": "image",
+                            "type": "image",
+                            "altText": ""
+                        },
+                        {
+                            "id": 2,
+                            "text": null,
+                            "mediaURL": "https://fesfpsldata.s3.ap-southeast-1.amazonaws.com/psl-activity/image/043-horse.jpg",
+                            "mediaType": "image",
+                            "type": "image",
+                            "altText": ""
+                        },
+                        {
+                            "id": 3,
+                            "text": null,
+                            "mediaURL": "https://fesfpsldata.s3.ap-southeast-1.amazonaws.com/psl-activity/image/006-doctor.jpg",
+                            "mediaType": "image",
+                            "type": "image",
+                            "altText": ""
+                        },
+                        {
+                            "id": 4,
+                            "text": null,
+                            "mediaURL": "https://fesfpsldata.s3.ap-southeast-1.amazonaws.com/psl-activity/image/018-teacher.jpg",
+                            "mediaType": "image",
+                            "type": "image",
+                            "altText": ""
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "text": "Question 3",
+                    "mediaURL": "http://13.251.157.108/new-math/03-Comparing Numbers/06.gif",
+                    "mediaType": "image",
+                    "type": "multiple-choice",
+                    "altText": "",
+                    "noShuffle": true,
+                    "correctAnswerId": 1,
+                    "userValue": null,
+                    "answers": [
+                        {
+                            "id": 1,
+                            "text": "YES",
+                            "mediaURL": "",
+                            "mediaType": "",
+                            "type": "text",
+                            "altText": ""
+                        },
+                        {
+                            "id": 2,
+                            "text": "NO",
+                            "mediaURL": "",
+                            "mediaType": "",
+                            "type": "text",
+                            "altText": ""
+                        },
+                        {
+                            "id": 3,
+                            "text": "SELF CORRECT",
+                            "mediaURL": "",
+                            "mediaType": "",
+                            "type": "text",
+                            "altText": ""
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "text": "Select Numbers greater than 6",
+                    "mediaURL": "",
+                    "mediaType": "",
+                    "type": "multiple-choice",
+                    "altText": "",
+                    "noShuffle": false,
+                    "correctAnswerId": 2,
+                    "userValue": null,
+                    "//comment": "this question should have checkbox style MULTIPLE ANSWER Selection, also need to figure out how to provide multiple correct IDs and how to store them",
+                    "//comment2": "additional question fields can be as below",
+                    "rtl": "boolean:true/false, to indicate question and answer to be rendered with RTL and proper urdu styling",
+                    "math": "boolean:true/false, to indicate question/answers may contain special markup to show math equation/symbols",
+                    "difficulty": "optional, maybe used to group the results, values could be easy, medium, hard",
+                    "topic": "optional, maybe used to group the results",
+                    "slo": "optional, maybe used to group the results",
+                    "answers": [
+                        {
+                            "id": 1,
+                            "text": "7",
+                            "mediaURL": "",
+                            "mediaType": "",
+                            "type": "text",
+                            "altText": ""
+                        },
+                        {
+                            "id": 2,
+                            "text": "6",
+                            "mediaURL": "",
+                            "mediaType": "",
+                            "type": "text",
+                            "altText": ""
+                        },
+                        {
+                            "id": 3,
+                            "text": "8",
+                            "mediaURL": "",
+                            "mediaType": "",
+                            "type": "text",
+                            "altText": ""
+                        },
+                        {
+                            "id": 4,
+                            "text": "16",
+                            "mediaURL": "",
+                            "mediaType": "",
+                            "type": "text",
+                            "altText": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

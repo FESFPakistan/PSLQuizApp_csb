@@ -1,0 +1,73 @@
+.question-card {
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  .question-content {
+    margin-bottom: 20px;
+  }
+  
+  .answer-options {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+  }
+  
+  .answer-option {
+    width: 200px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .answer-option p {
+    margin: 0;
+  }
+  
+  .answer-option img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .card-view-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    grid-gap: 20px; /* Gap between the columns */
+  }
+  
+.answer-cards {
+    display: grid;
+    grid-gap: 10px;
+    /* grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); */
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .answer-card {
+    background-color: #eaeaea;
+    padding: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+
+  .answer-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+
+  .selected-answer {
+    border-color: yellow;
+    border-width: thick;
+  }
+
+  .correct-answer {
+    background-color: green;
+}
+
+.wrong-answer {
+    background-color: red;
+}
